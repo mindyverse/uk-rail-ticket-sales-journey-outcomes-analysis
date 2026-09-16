@@ -4,13 +4,9 @@
 
 The aim of this project is to gain an understanding of ticket purchasing patterns, gross ticket sales and journey outcomes by analysing a mock UK National Rail ticket dataset. There are 31,653 transactions in this dataset. Ticket purchasing details are available from December 2023 to April 2024 while journey details are available from January 2024 to April 2024. To carry out this analysis, I used Power BI, Power Query and DAX.
 
+![Power BI Dashboard](dashboard.png)
 
-
-!\[Power BI Dashboard](dashboard.png)
-
-
-
-## Questions that I wanted to answer
+## Questions I Wanted to Answer
 
 In this project, I mainly tried to find the answers to the following questions:
 
