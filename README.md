@@ -11,7 +11,7 @@ The aim of this project is to gain an understanding of ticket purchasing pattern
 In this project, I mainly tried to find the answers to the following questions:
 
 1. How many tickets were sold, and what was their total gross ticket sales  value?
-2. What the routes had the highest number of transactions?
+2. Which routes had the highest number of transactions?
 3. Which ticket types generated the highest gross ticket sales?
 4. How were the journey records distributed among On Time, Delayed and Cancelled?
 5. What were the main reasons for delays and cancellations?
@@ -19,18 +19,21 @@ In this project, I mainly tried to find the answers to the following questions:
 
 ## Data Preparation
 
-First, i inspected the dataset before creating the dashboard.
-I checked for missing values, duplicate transaction IDs, incorrect data types and inconsistent category names.
-One of the main data cleaning issue i found was that some values with same meaning had different names in the 'Reason for delay' column.
+First, I inspected the dataset before creating the dashboard. I checked for missing values, duplicate transaction IDs, incorrect data types and inconsistent category names.
 
-For a instance:
--Weather conditions and Weather
--Signal failure and Signal Failure
--Staff shortage and Staffing
+One of the main data-cleaning issues I found was that some values with the same meaning had different names in the `Reason for Delay` column.
+
+For instance:
+
+- Weather Conditions and Weather
+- Signal failure and Signal Failure
+- Staff Shortage and Staffing
 
 I standardised these values so that the same reason would not appear as two separate categories in the charts.
-I did not delete the blank values in 'Reason for Delay' and 'Actual Arrival Time' columns. Because they are not always errors. For a example, it is normal for an On Time journey not to have a delay reason.
-I also created a new column called 'Route' by combining 'Departure station' and 'Arrival destination' columns.
+
+I did not delete the blank values in the `Reason for Delay` and `Actual Arrival Time` columns because they are not always errors. For example, it is normal for an On Time journey not to have a delay reason.
+
+I also created a new column called `Route` by combining the `Departure Station` and `Arrival Destination` columns.
 
 ## Key measures
 
