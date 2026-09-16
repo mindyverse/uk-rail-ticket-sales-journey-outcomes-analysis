@@ -6,7 +6,7 @@ The aim of this project is to gain an understanding of ticket purchasing pattern
 
 
 
-!\[Power BI Dashboard](images/dashboard.png)
+!\[Power BI Dashboard](dashboard.png)
 
 
 
